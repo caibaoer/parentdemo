@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-//@MapperScan(basePackages = "com.mapper")
+@MapperScan(basePackages = "com.mapper")
 public class ParentdemoWebApplication {
 
     public static void main(String[] args) {
