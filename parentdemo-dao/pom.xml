@@ -38,7 +38,7 @@
             <groupId>com.huangpan</groupId>
             <artifactId>parentdemo-base</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
+           <!-- <scope>compile</scope>-->
         </dependency>
 
         <dependency>
@@ -64,10 +64,13 @@
 
     <build>
         <plugins>
-            <plugin>
+            <!-- 这个插件，可以将应用打包成一个可执行的jar包-->
+            <!-- 有些模块不是web模块，不涉及到启动类，不涉及到
+   打可执行的jar包，没有启动类的话，有这个插件的话会报错,所以需要屏蔽掉，因为这个插件要求该模块必须有启动类-->
+           <!-- <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 

@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
         User user=new User(1,"huangpan",30);
         userMapper.insert(null);
         Object o1=ApplicationContextUtil.getBean("userController");
-        Object o2=ApplicationContextUtil.getBean("userControllerss");//这里会抛出异常  "org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'userControllerss' available"
+        //Object o2=ApplicationContextUtil.getBean("userControllerss");//这里会抛出异常  "org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'userControllerss' available"
         return "aaa";
     }
 

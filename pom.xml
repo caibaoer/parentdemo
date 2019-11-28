@@ -45,12 +45,16 @@
         </dependency>
     </dependencies>
 
+
     <build>
         <plugins>
-            <plugin>
+            <!-- 这个插件，可以将应用打包成一个可执行的jar包-->
+            <!-- 在父模块,一般情况下这个插件需要屏蔽掉，因为子模块继承了该模块，但是子模块有些是base,pojo模块，不涉及到启动类，不涉及到
+            打可执行的jar包，没有启动类的话，有这个插件的话会报错。因为这个插件要求该模块必须有启动类-->
+           <!-- <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 

@@ -42,8 +42,11 @@
         </dependency>
     </dependencies>
 
+
     <build>
         <plugins>
+            <!-- 这个插件，可以将应用打包成一个可执行的jar包-->
+            <!-- 有了这个插件,就直接package 或者 install,就把web模块打成一个可执行的jar包，其他模块比如pojo,base等也会打成jar被放到web打成的jar里面去，执行的话，打开命令行  java -jar parentdemo-web-0.0.1-SNAPSHOT.jar就可以了 -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
