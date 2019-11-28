@@ -7,4 +7,12 @@ spring:
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   #可以不要type-aliases-package: com.pojo
+logging:
+  file: D:/springboot.log
+  level:
+    root: warn
+    com.config: info
+  pattern:
+    console: "%d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level %logger- %msg%n"
+    file: "%d{yyyy/MM/dd-HH:mm} [%thread] %-5level %logger- %msg%n"
 
