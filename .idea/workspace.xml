@@ -6,11 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b76913a3-dd34-4fc4-ab6a-80195cf7a512" name="Default Changelist" comment="">
+    <list default="true" id="b76913a3-dd34-4fc4-ab6a-80195cf7a512" name="Default Changelist" comment="yml文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentdemo-web/src/main/java/com/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentdemo-web/src/main/java/com/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentdemo-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/parentdemo-web/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentdemo-web/target/classes/com/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentdemo-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/parentdemo-web/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentdemo-web/target/classes/com/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/parentdemo-web/target/classes/com/controller/UserController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,7 +51,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="925" />
-          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="PLAIN_TEXT" value="52" />
           <entry key="XML" value="576" />
           <entry key="YAML" value="467" />
         </counts>
@@ -130,7 +129,7 @@
         <entry file="file://$PROJECT_DIR$/parentdemo-web/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="359">
-              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -404,7 +403,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574991905954" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574992997057" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -540,7 +539,7 @@
       <workItem from="1574122253475" duration="3719000" />
       <workItem from="1574126249052" duration="1822000" />
       <workItem from="1574822345090" duration="2317000" />
-      <workItem from="1574986635860" duration="5121000" />
+      <workItem from="1574986635860" duration="5805000" />
     </task>
     <task id="LOCAL-00001" summary="插件--可执行的jar包">
       <created>1574926175097</created>
@@ -563,17 +562,23 @@
       <option name="project" value="LOCAL" />
       <updated>1574935810221</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="yml文件">
+      <created>1574991978951</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574991978951</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39092000" />
+    <option name="totallyTimeSpent" value="39776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -584,7 +589,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3846154" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4496208" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4496208" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -617,7 +622,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="插件--可执行的jar包" />
     <MESSAGE value="配置logback日志以及@Bean方法级别注解的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置logback日志以及@Bean方法级别注解的使用" />
+    <MESSAGE value="yml文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="yml文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1612,7 +1618,7 @@
     <entry file="file://$PROJECT_DIR$/parentdemo-web/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
