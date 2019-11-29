@@ -16,3 +16,24 @@ logging:
     console: "%d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level %logger- %msg%n"
     file: "%d{yyyy/MM/dd-HH:mm} [%thread] %-5level %logger- %msg%n"
 
+#数组:其实array-demo不用太关注，这个是和类关联的，这里需要关注的是li,是类里面的属性值
+array-demo:
+  li:
+    - 11
+    - 12
+    - "test"
+
+#list集合: list 集合里面的单个实体名字不用写，使用-开始写单个实体的属性
+list-demo:
+  userList:
+    - id: 2
+      name: "jack"
+    - id: 3
+      name: "jack2"
+
+
+#map:
+map-demo:
+  myMap:
+    v1: 1
+    v2: 2
